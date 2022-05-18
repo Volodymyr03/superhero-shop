@@ -11,3 +11,35 @@
 .button--full{
   display: block;
 }
+.titled-card {
+  width: 196px;
+  height: 294px;
+  border-radius: 35px;
+  background: gray;
+  display: flex;
+  align-items: flex-end;
+}
+
+.titled-card__button {
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 35px;
+  align-items: center;
+  padding: 25px 20px 26px 20px;
+  min-width: 196px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  line-height: 1.1;
+  font-size: 18px;
+  color: #FFFFFF;
+
+}
+
+.heroesName {
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
